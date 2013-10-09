@@ -1,9 +1,12 @@
 html {
 	background-image:url(blackboard-backgrounds-wallpapers.jpeg);
+	background-size: 900px 2000px;
 	}
 
 body {
 	color: white;
+	font-family: rockwell;
+	font-size: 20px;
 	}
 	
 .intro header h1, .intro header h2 {
@@ -14,8 +17,25 @@ body {
 	height: 500px;
 	background-image:url(Zen_Header.png);
 	background-repeat:no-repeat;
+	background-size: auto;
 	width:100%;
-    position:fixed;
-    top:-40px;
+    position:fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 	}
-	
+
+#zen-summary { 
+	border-bottom:5px dotted white;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	padding-top: 250px;
+	}
+
+h3 {
+font-family: Brush Script MT;
+font-size: 30px;
+}
+
