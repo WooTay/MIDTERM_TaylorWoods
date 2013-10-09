@@ -11,7 +11,11 @@ body {
 }
 
 .intro header {
-	height: 163px
+	height: 500px;
 	background-image:url(Zen_Header.png);
-	background-size: auto;
+	background-repeat:no-repeat;
+	width:100%;
+    position:fixed;
+    top:-40px;
 	}
+	
