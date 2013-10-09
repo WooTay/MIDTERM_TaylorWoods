@@ -5,3 +5,13 @@ html {
 body {
 	color: white;
 	}
+	
+.intro header h1, .intro header h2 {
+	display: none;
+}
+
+.intro header {
+	height: 163px
+	background-image:url(Zen_Header.png);
+	background-size: auto;
+	}
